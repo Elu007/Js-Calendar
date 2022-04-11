@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        #calendar{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 60px;
+        }
+        .calendarTable{
+            width: 100%;
+            border: 5px solid red;
+            border-radius: 10px;
+        }
+        .calendarTable thead tr th{
+            background-color: aqua;
+            border-bottom: 2px dotted black;
+            border-radius: 10px;
+            padding: 20px 0px;
+        }
+        .calendarTable thead tr td{
+            text-align: center;
+            padding: 20px 0px;
+            border: 2px solid gray;
+            cursor: pointer;
+            background-color: grey;
+        }
+        h2{
+            color: red;
+            text-align: center;
+            background-color: greenyellow;
+            border-radius: 15px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .calendarButton{
+            font-size: 20px;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div id="calendar"></div>
+
+    <script src="calendar.js"></script>
+</body>
+</html>
